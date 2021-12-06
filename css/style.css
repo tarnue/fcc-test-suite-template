@@ -1,0 +1,176 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background: #f9f9f9;
+  font-family: 'courier'
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding-top: 20px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 100% !important;
+  justify-content: space-around;
+  font-family: 'Century Gothic' !important;
+}
+.intro button{
+  max-width: 300px;
+  font-size: 23px;
+  font-weight: bolder;
+  color:#000000;
+  background: #ddd;
+  border: 4px solid #ddd;
+  border-radius: 19px;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.intro h3{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 25px;
+}
+
+.services_rapper p{
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  text-align: left;
+  margin-top: 20px;
+}
+.services_rapper{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.fa{
+  margin-right: 20px !important;
+  color:  #ffd11a;
+}
+
+.card button{
+  width: 100%;
+  padding: 3px;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid green;
+  margin-top: 8px;
+  padding-top: 6px;
+  font-size: 18px;
+}
+
+.caption{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact{
+   /* The image used */
+  background-image: url("https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/fc/3046442-poster-p-1-this-startup-pays-african-students-to-learn-how-to-code.jpg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+
+.overlay{
+  background: rgba(0,0,0,.5);
+  color: #ffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1{
+  font-family: 'Century Gothic' !important;
+  font-weight: bolder;
+}
+
+textarea{
+  min-width: 90% !important;
+  margin-top: 10px;
+  display: block;
+  padding:7px;
+  background: rgba(0,0,0,.6);
+}
+
+.overlay button{
+  padding: 3px;
+  text-align: center;
+  border: 2px solid yellow;
+  margin-top: 8px;
+  background: yellow;
+  color: black;
+  padding: 7px;
+  font-size: 18px;
+}
+
+
+footer{
+  margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #myimg{
+    display: none;
+  }
+
+  .intro div{
+    text-align: center;
+  }
+
+  button{
+    width: 100% !important;
+  }
+}
